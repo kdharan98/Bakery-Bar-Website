@@ -1,0 +1,70 @@
+:root {
+	color-scheme: light;
+	--brand-burgundy: #70221f;
+	--brand-burgundy-dark: #581915;
+	--brand-cream: #fff4e9;
+	--brand-cream-secondary: #f8e9da;
+	--brand-chocolate: #4a2923;
+	--brand-gold: #c69a62;
+	--brand-white: #ffffff;
+	--brand-body: #382923;
+	--brand-muted: #806d62;
+	--brand-border: #e8d8c8;
+
+	--font-family-heading: "Cormorant Garamond", Georgia, serif;
+	--font-family-body: "Lato", "Helvetica Neue", sans-serif;
+
+	--text-xs: 0.75rem;
+	--text-sm: 0.875rem;
+	--text-base: 1rem;
+	--text-lg: 1.125rem;
+	--text-xl: 1.25rem;
+	--text-2xl: 1.5rem;
+	--text-3xl: 1.875rem;
+	--text-4xl: 2.25rem;
+	--text-display: clamp(2.75rem, 8vw, 5rem);
+
+	--space-1: 0.25rem;
+	--space-2: 0.5rem;
+	--space-3: 0.75rem;
+	--space-4: 1rem;
+	--space-6: 1.5rem;
+	--space-8: 2rem;
+	--space-12: 3rem;
+	--space-16: 4rem;
+
+	--brand-radius-control: 0.25rem;
+	--brand-radius-card: 0.5rem;
+	--brand-radius-pill: 999px;
+	--container-width: 80rem;
+	--container-gutter: 1.25rem;
+	--shadow-card: 0 8px 24px rgb(74 41 35 / 7%);
+	--transition-standard: 180ms ease;
+}
+
+@theme inline {
+	--color-burgundy: var(--brand-burgundy);
+	--color-burgundy-dark: var(--brand-burgundy-dark);
+	--color-cream: var(--brand-cream);
+	--color-cream-secondary: var(--brand-cream-secondary);
+	--color-chocolate: var(--brand-chocolate);
+	--color-gold: var(--brand-gold);
+	--color-white: var(--brand-white);
+	--color-body: var(--brand-body);
+	--color-muted: var(--brand-muted);
+	--color-border: var(--brand-border);
+	--font-heading: var(--font-family-heading);
+	--font-body: var(--font-family-body);
+	--radius-control: var(--brand-radius-control);
+	--radius-card: var(--brand-radius-card);
+	--radius-pill: var(--brand-radius-pill);
+	--breakpoint-tablet: 48rem;
+	--breakpoint-desktop: 64rem;
+	--breakpoint-wide: 80rem;
+}
+
+@media (min-width: 48rem) {
+	:root {
+		--container-gutter: 2rem;
+	}
+}

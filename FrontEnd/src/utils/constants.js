@@ -1,0 +1,1 @@
+export const WHATSAPP_ENQUIRY_STATUS = "WhatsApp opened with your enquiry. Review the message and send it in WhatsApp.";
