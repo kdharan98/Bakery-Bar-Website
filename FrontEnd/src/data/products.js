@@ -8,6 +8,7 @@ const products = [
 		description: "Soft red velvet layers finished with smooth cream frosting.",
 		active: true,
 		featured: true,
+		featuredOrder: 2,
 		rating: 4.8,
 		alt: "Red velvet layer cake with cream frosting",
 	},
@@ -25,6 +26,7 @@ const products = [
 		description: "Rich chocolate layers with a silky truffle finish.",
 		active: true,
 		featured: true,
+		featuredOrder: 1,
 		rating: 4.9,
 		alt: "Chocolate truffle cake topped with chocolate curls",
 	},
@@ -86,6 +88,7 @@ const products = [
 		description: "Creamy kulfi with the delicate taste of pistachio.",
 		active: true,
 		featured: true,
+		featuredOrder: 4,
 		alt: "Pistachio kulfi",
 	},
 	{
@@ -110,6 +113,7 @@ const products = [
 		description: "A crisp base topped with tomato, mozzarella and basil.",
 		active: true,
 		featured: true,
+		featuredOrder: 3,
 		alt: "Classic margherita pizza",
 	},
 	{

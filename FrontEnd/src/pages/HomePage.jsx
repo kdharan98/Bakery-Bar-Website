@@ -148,7 +148,12 @@ function HomePage() {
 							See the collection <ArrowRight aria-hidden="true" size={16} />
 						</Link>
 					</div>
-						<ProductGrid products={products.filter((product) => product.active && product.featured)} variant="showcase" />
+						<ProductGrid
+							products={products
+								.filter((product) => product.active && product.featured)
+								.sort((first, second) => first.featuredOrder - second.featuredOrder)}
+							variant="showcase"
+						/>
 				</div>
 			</section>
 
